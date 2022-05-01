@@ -1,0 +1,11 @@
+Fitter Status : Successful - Thu Apr  7 18:25:21 2022
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : priority_encoder
+Top-level Entity Name : priority_encoder
+Family : MAX II
+Device : EPM2210F324I5
+Timing Models : Final
+Total logic elements : 7 / 2,210 ( < 1 % )
+Total pins : 12 / 272 ( 4 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

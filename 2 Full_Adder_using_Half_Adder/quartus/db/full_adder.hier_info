@@ -1,0 +1,26 @@
+|full_adder
+sum <= half_adder:ad12.port2
+cout <= G1.DB_MAX_OUTPUT_PORT_TYPE
+a => a.IN1
+b => b.IN1
+cin => cin.IN1
+
+
+|full_adder|half_adder:ad1
+a => G1.IN0
+a => G2.IN0
+b => G1.IN1
+b => G2.IN1
+sum <= G1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|full_adder|half_adder:ad12
+a => G1.IN0
+a => G2.IN0
+b => G1.IN1
+b => G2.IN1
+sum <= G1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+

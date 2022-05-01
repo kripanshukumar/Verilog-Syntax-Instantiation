@@ -1,0 +1,9 @@
+Analysis & Synthesis Status : Successful - Thu Apr  7 17:53:35 2022
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : mux_using_decoder
+Top-level Entity Name : mux_using_decoder
+Family : MAX II
+Total logic elements : 2
+Total pins : 7
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

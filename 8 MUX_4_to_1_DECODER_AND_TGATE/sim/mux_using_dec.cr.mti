@@ -1,0 +1,22 @@
+{D:/Maven Learning/Practicals/Lab1/8 MUX_4_to_1_DECODER_AND_TGATE/test_bench/mux_tb.v} {1 {vlog -work mux_using_dec_sim -stats=none {D:/Maven Learning/Practicals/Lab1/8 MUX_4_to_1_DECODER_AND_TGATE/test_bench/mux_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux_tv
+
+Top level modules:
+	mux_tv
+
+} {} {}} {D:/Maven Learning/Practicals/Lab1/8 MUX_4_to_1_DECODER_AND_TGATE/rtl/mux_using_decoder.v} {1 {vlog -work mux_using_dec_sim -stats=none {D:/Maven Learning/Practicals/Lab1/8 MUX_4_to_1_DECODER_AND_TGATE/rtl/mux_using_decoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux_using_decoder
+
+Top level modules:
+	mux_using_decoder
+
+} {} {}} {D:/Maven Learning/Practicals/Lab1/8 MUX_4_to_1_DECODER_AND_TGATE/rtl/decoder_2_to_4.v} {1 {vlog -work mux_using_dec_sim -stats=none {D:/Maven Learning/Practicals/Lab1/8 MUX_4_to_1_DECODER_AND_TGATE/rtl/decoder_2_to_4.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder_2_to_4
+
+Top level modules:
+	decoder_2_to_4
+
+} {} {}}

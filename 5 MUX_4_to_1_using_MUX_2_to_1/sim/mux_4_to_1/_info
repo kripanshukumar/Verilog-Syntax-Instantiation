@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Maven Learning/Practicals/Lab1/4 2_to_4_Decoder_Data_Flow_Abs/sim
+vmux_2_to_1
+Z0 !s110 1649325143
+!i10b 1
+!s100 8T^`3S4hHUYdPc2Bngm<I0
+I<7=YeIKScGgI?;h87Qa6A3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Maven Learning/Practicals/Lab1/sim
+w1649324080
+8D:/Maven Learning/Practicals/Lab1/5 MUX_4_to_1_using_MUX_2_to_1/rtl/mux_2_to_1.v
+FD:/Maven Learning/Practicals/Lab1/5 MUX_4_to_1_using_MUX_2_to_1/rtl/mux_2_to_1.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1649325143.000000
+!s107 D:/Maven Learning/Practicals/Lab1/5 MUX_4_to_1_using_MUX_2_to_1/rtl/mux_2_to_1.v|
+!s90 -reportprogress|300|-work|mux_4_to_1|-stats=none|D:/Maven Learning/Practicals/Lab1/5 MUX_4_to_1_using_MUX_2_to_1/rtl/mux_2_to_1.v|
+!i113 1
+Z5 o-work mux_4_to_1
+Z6 tCvgOpt 0
+vmux_4_to_1
+R0
+!i10b 1
+!s100 EQdQGgJYFN5P7BT?AbTQL0
+Ia>SMK]cG14F>jLjJbMi_j1
+R1
+R2
+w1649324039
+8D:/Maven Learning/Practicals/Lab1/5 MUX_4_to_1_using_MUX_2_to_1/rtl/mux_4_to_1.v
+FD:/Maven Learning/Practicals/Lab1/5 MUX_4_to_1_using_MUX_2_to_1/rtl/mux_4_to_1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Maven Learning/Practicals/Lab1/5 MUX_4_to_1_using_MUX_2_to_1/rtl/mux_4_to_1.v|
+!s90 -reportprogress|300|-work|mux_4_to_1|-stats=none|D:/Maven Learning/Practicals/Lab1/5 MUX_4_to_1_using_MUX_2_to_1/rtl/mux_4_to_1.v|
+!i113 1
+R5
+R6
+vmux_tv
+R0
+!i10b 1
+!s100 =Ko7<Cj7`m7SjYASOI6MI0
+I7G<RWLc61?G^CBmN8lmCN1
+R1
+R2
+w1649325100
+8D:/Maven Learning/Practicals/Lab1/5 MUX_4_to_1_using_MUX_2_to_1/test_bench/mux_tb.v
+FD:/Maven Learning/Practicals/Lab1/5 MUX_4_to_1_using_MUX_2_to_1/test_bench/mux_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Maven Learning/Practicals/Lab1/5 MUX_4_to_1_using_MUX_2_to_1/test_bench/mux_tb.v|
+!s90 -reportprogress|300|-work|mux_4_to_1|-stats=none|D:/Maven Learning/Practicals/Lab1/5 MUX_4_to_1_using_MUX_2_to_1/test_bench/mux_tb.v|
+!i113 1
+R5
+R6

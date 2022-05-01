@@ -1,0 +1,9 @@
+Analysis & Synthesis Status : Successful - Thu Apr  7 12:58:34 2022
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : decoder_2_to_4
+Top-level Entity Name : decoder_2_to_4
+Family : MAX V
+Total logic elements : 4
+Total pins : 7
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )
