@@ -1,8 +1,0 @@
-|bd_buffer
-outward <= outward.DB_MAX_OUTPUT_PORT_TYPE
-inward <= inward.DB_MAX_OUTPUT_PORT_TYPE
-in => outward.DATAIN
-enable => outward.OE
-enable => inward.OE
-
-
