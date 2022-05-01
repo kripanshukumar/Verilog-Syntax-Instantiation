@@ -1,0 +1,124 @@
+|rca_4_bit
+out[0] <= full_adder:adr0.port0
+out[1] <= full_adder:adr1.port0
+out[2] <= full_adder:adr2.port0
+out[3] <= full_adder:adr3.port0
+cout[0] <= full_adder:adr3.port1
+cout[1] <= full_adder:adr3.port1
+cout[2] <= full_adder:adr3.port1
+cout[3] <= full_adder:adr3.port1
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+cin => cin.IN1
+
+
+|rca_4_bit|full_adder:adr0
+sum <= half_adder:ad12.port2
+cout <= G1.DB_MAX_OUTPUT_PORT_TYPE
+a => a.IN1
+b => b.IN1
+cin => cin.IN1
+
+
+|rca_4_bit|full_adder:adr0|half_adder:ad1
+a => G1.IN0
+a => G2.IN0
+b => G1.IN1
+b => G2.IN1
+sum <= G1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rca_4_bit|full_adder:adr0|half_adder:ad12
+a => G1.IN0
+a => G2.IN0
+b => G1.IN1
+b => G2.IN1
+sum <= G1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rca_4_bit|full_adder:adr1
+sum <= half_adder:ad12.port2
+cout <= G1.DB_MAX_OUTPUT_PORT_TYPE
+a => a.IN1
+b => b.IN1
+cin => cin.IN1
+
+
+|rca_4_bit|full_adder:adr1|half_adder:ad1
+a => G1.IN0
+a => G2.IN0
+b => G1.IN1
+b => G2.IN1
+sum <= G1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rca_4_bit|full_adder:adr1|half_adder:ad12
+a => G1.IN0
+a => G2.IN0
+b => G1.IN1
+b => G2.IN1
+sum <= G1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rca_4_bit|full_adder:adr2
+sum <= half_adder:ad12.port2
+cout <= G1.DB_MAX_OUTPUT_PORT_TYPE
+a => a.IN1
+b => b.IN1
+cin => cin.IN1
+
+
+|rca_4_bit|full_adder:adr2|half_adder:ad1
+a => G1.IN0
+a => G2.IN0
+b => G1.IN1
+b => G2.IN1
+sum <= G1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rca_4_bit|full_adder:adr2|half_adder:ad12
+a => G1.IN0
+a => G2.IN0
+b => G1.IN1
+b => G2.IN1
+sum <= G1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rca_4_bit|full_adder:adr3
+sum <= half_adder:ad12.port2
+cout <= G1.DB_MAX_OUTPUT_PORT_TYPE
+a => a.IN1
+b => b.IN1
+cin => cin.IN1
+
+
+|rca_4_bit|full_adder:adr3|half_adder:ad1
+a => G1.IN0
+a => G2.IN0
+b => G1.IN1
+b => G2.IN1
+sum <= G1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rca_4_bit|full_adder:adr3|half_adder:ad12
+a => G1.IN0
+a => G2.IN0
+b => G1.IN1
+b => G2.IN1
+sum <= G1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+

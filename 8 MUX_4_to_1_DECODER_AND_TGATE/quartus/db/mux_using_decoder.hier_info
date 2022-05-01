@@ -1,0 +1,29 @@
+|mux_using_decoder
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+in[0] => out.DATAIN
+in[1] => out.DATAIN
+in[2] => out.DATAIN
+in[3] => out.DATAIN
+sel[0] => sel[0].IN1
+sel[1] => sel[1].IN1
+
+
+|mux_using_decoder|decoder_2_to_4:dec
+out[0] <= g3.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= g4.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= g5.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= g6.DB_MAX_OUTPUT_PORT_TYPE
+in[0] => g4.IN0
+in[0] => g6.IN0
+in[0] => g3.IN0
+in[0] => g5.IN0
+in[1] => g5.IN1
+in[1] => g6.IN1
+in[1] => g3.IN1
+in[1] => g4.IN1
+en => g3.IN2
+en => g4.IN2
+en => g5.IN2
+en => g6.IN2
+
+
